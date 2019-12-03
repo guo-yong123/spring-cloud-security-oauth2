@@ -34,5 +34,3 @@ hs_err_pid*
 *.iml
 out
 gen
-/spring-cloud-security-oauth2-server/target/
-/spring-cloud-security-oauth2-resource/target/
