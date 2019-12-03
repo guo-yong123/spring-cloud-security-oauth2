@@ -16,6 +16,7 @@ public class UserController {
 
       @GetMapping(value = "/user/info/{userId}")
       public String getUserInfo(@PathVariable String userId){
+
           return "user:"+userId;
       }
 

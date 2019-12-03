@@ -13,6 +13,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 @MapperScan(basePackages = "com.tl.oauth2.mapper")
 public class OAuth2ServerApplication {
     public static void main(String[] args) {
+
         SpringApplication.run(OAuth2ServerApplication.class,args);
     }
 }
